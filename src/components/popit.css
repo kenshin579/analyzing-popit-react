@@ -1,0 +1,257 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post_card {
+  width: 900px;
+}
+
+.post {
+  width: 230px;
+}
+
+.author,
+.author a,
+.author a:hover,
+.author a:active,
+.author a:visited,
+.author a:link {
+  font-weight: bold;
+  color: #111111;
+}
+
+.author_avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+}
+
+.post_description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  height: 70px;
+  max-height: 70px;
+  color: #888888;
+}
+
+.post_description_link a,
+.post_description_link a:hover,
+.post_description_link a:active,
+.post_description_link a:visited,
+.post_description_link a:link {
+  color: #888888;
+}
+
+.post_card_description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 5px;
+  height: 75px;
+  max-height: 75px;
+  color: #888888;
+}
+
+.post_title {
+  color: #111111;
+  height: 42px;
+  max-height: 42px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.post_card_title {
+  color: #111111;
+  font-size: 18px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+
+.post_title_mobile {
+  color: #111111;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.post_tag {
+  color: #6F6F6F;
+  text-decoration: underline;
+  text-decoration-color: #6F6F6F;
+  outline: none;
+  font-size: 13px;
+  margin-top: 5px;
+  /*max-height: 17px;*/
+  height: 20px;
+  overflow: hidden;
+}
+
+.post_tag a:hover,
+.post_tag a:active,
+.post_tag a:visited,
+.post_tag a:link {
+  color: #6F6F6F;
+}
+
+.author_title {
+  color: #111111;
+  font-size: 24px;
+  text-decoration: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.author_title a:hover {
+  color: #111111;
+}
+
+.author_home {
+  font-size: 12px;
+  max-width: 250px;
+  text-overflow: ellipsis;
+  /*overflow: hidden;*/
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #6F6F6F;
+}
+
+.author_home a:hover,
+.author_home a:active,
+.author_home a:visited,
+.author_home a:link {
+  color: #6F6F6F;
+}
+
+.logo {
+  width: 282px;
+  height: 32px;
+  /*background: rgba(255,255,255,.2);*/
+  background-image: url('https://www.popit.kr/wp-content/uploads/2016/08/web_title_1280x77-1.png');
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+.circle_more_btn {
+  display:block;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  /*border: 1px solid red;*/
+  background-color: #ffffff;
+}
+
+/*******************************
+Wordpress
+*******************************/
+body {
+  font: 1em/1.7em 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #666;
+  word-wrap: break-word;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 30px;
+}
+.alignright {
+  float: right;
+  margin-left: 30px;
+}
+.aligncenter {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content h1 {
+  line-height: 40px;
+}
+
+.wp-caption-image img {
+  margin-bottom: 0px !important;
+}
+
+.wp-caption-text {
+  font-size: 13px;
+}
+
+.entry-content img {
+  margin-bottom: 10px;
+}
+
+.entry-content p {
+  margin-bottom: 10px;
+}
+
+.entry-content h1 {
+  margin-top: 20px;
+  line-height: 40px;
+  font-size: 32px;
+}
+
+.entry-content h2 {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.entry-content h3 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.entry-content h4 {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.entry-content blockquote {
+  font: italic 1.1em/1.4em Georgia, "Times New Roman", Times, serif;
+  padding: 20px 30px 15px;
+}
+
+.entry-content a,
+.entry-content a:hover,
+.entry-content a:active,
+.entry-content a:visited,
+.entry-content a:link {
+  color: #00a562;
+  border-bottom: 1px solid #f1f1f1;
+  text-decoration: none;
+}
+
+.text_caption {
+  font-size: 14px;
+  color: #505050;
+  margin-bottom: 10px;
+}
